@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <title>X O</title>
+    <link rel="stylesheet" href="loblob.css">
+
+</head>
+<body>
+          <!--////////////////////HEADER///////////////////// -->
+
+    <header>
+        <div class="logo">
+          <i class="fas fa-gamepad"></i>
+        </div>
+        <nav>
+          <ul>
+            <li class="lili"><a href="#Home">Home</a></li>
+            <li class="lili"><a href="#ABOUT">About</a></li>
+            <li class="lili"><a href="#Game">Play</a></li>
+          </ul>
+        </nav>
+      </header>
+
+        <!--////////////////////HOME///////////////////// -->
+
+      <section id="Home">
+        <div class="game-description">
+           
+          <h2 class="h2home"> Tic-Tac-Toe</h2>
+          <p>Tic-tac-toe is a game for two players, X and O, who take turns marking the spaces in a 3x3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.</p>
+          <button class="play-button"><a href="#Game" class="bb">Play Now</a></button>
+
+        </div>
+        <div class="game-image">
+          <img src="imgPro/xo.jpg" alt="Tic-Tac-Toe">
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    
+    <!--////////////////////ABOUT///////////////////// -->
+    
+    <section id="ABOUT">
+        <h2 class="h2home">About Tic-Tac-Toe</h2>
+        <div class="about-content">
+          <img src="imgPro/aboutxo.png" alt="Tic-Tac-Toe">
+          <p>Tic-tac-toe is a game for two players, X and O, who take turns marking the spaces in a 3x3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game. 
+            Tic-tac-toe is played on a three-by-three grid by two players, who alternately place the marks X and O in one of the nine spaces in the grid.
+          </p>
+        </div>
+      </section>
+      <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+      
+      <!--//////////////////// GAME///////////////////// -->
+
+    <section>
+        <h2 class="h2home">Game</h2>
+    <div class="game" id="Game">
+
+
+    <div class="title"><h2> <span >X O</span> GAME</h2> </div>
+
+    <div class="square" id="item1"onclick="game(this.id)"></div>
+    <div class="square" id="item2"onclick="game(this.id)"></div>
+    <div class="square" id="item3"onclick="game(this.id)"></div>
+
+    <div class="square" id="item4"onclick="game(this.id)"></div>
+    <div class="square" id="item5"onclick="game(this.id)"></div>
+    <div class="square" id="item6"onclick="game(this.id)"></div>
+
+    <div class="square" id="item7"onclick="game(this.id)"></div>
+    <div class="square" id="item8"onclick="game(this.id)"></div>
+    <div class="square" id="item9"onclick="game(this.id)"></div>
+
+</div>
+</section>
+<footer>
+    <p>&copy; 2023 Tic-Tac-Toe Game. All rights reserved.</p>
+  </footer>
+<script src="loblob.js"></script>
+</body>
+</html>
